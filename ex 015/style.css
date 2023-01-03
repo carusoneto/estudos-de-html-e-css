@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.destaque {
+    font-size: 3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+#h2orange {
+    color: orange;
+}
+
+p {
+    text-align: justify;
+}
+
+.ancora {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
