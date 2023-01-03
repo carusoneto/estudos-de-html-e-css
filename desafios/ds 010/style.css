@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to top,  #1A5C38 20%, #32B36B);
+    text-align: center;
+    padding: 5px;
+}
+
+header > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    padding-top: 10px ;
+}
+header > p {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+ul {
+    text-align: left;
+    padding-left: 0px;
+    margin: 0px;
+}
+li {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 10px 20px 10px 20px;
+}
+.linkdomenu {
+    text-decoration: none;
+    margin: 5px;
+}
+.linkdomenu:hover   {
+    background-color: #84E1AD;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    padding: 10px;
+    transition: 0.2s
+}
+
+.ademain {
+    text-decoration: none;
+    color: #1A5C38;
+}
+.ademain::after {
+    content: " ⚭";
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.233);
+}
+
+main > h1 {
+    margin: 0px;
+    font-family: "idroid";
+    color: #1A5C38;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    text-indent: 20px;
+}
+
+.paragrafos {
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 30px;
+    font-weight: 600;
+}
+
+#video {
+    background-color: #1A5C38;
+    margin:  -10px;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.205);
+}
+
+article > h2 {
+    font-family: "idroid";
+    color: #1A5C38;
+    background-image: linear-gradient(to left, white, #84E1AD);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    text-indent: 20px;
+}
+
+
+footer {
+    background-color: #1A5C38;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+
+#bolos > li {
+    color: black;
+}
+#bolos {
+    columns: 2;
+    width: 400px;
+}
+
+#extra {
+    background-color: #a3ecc4c4;
+    padding: 10px;
+    margin: 20px;
+}
+
+#extra > h3 {
+    margin: -9px;
+    padding: 5px;
+    background-color: #32b36c;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+   
+}
