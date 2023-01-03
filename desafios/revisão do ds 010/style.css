@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid" ;
+    src: url("fontes/idroid.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+/* paleta #OB2624 #7EBFB3 #C9EBF2 #D5E7F2 #96B3D9 */ 
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+body {
+ background-color: #D5E7F2;
+}
+
+header { 
+    background-image:linear-gradient(to top, #0b2624, #7EBFB3  );
+    text-align: center;
+    padding: 10px;
+    min-height: 150px;
+    padding-bottom: 0px;
+}
+
+#tituloprincipal { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#pdeheader {
+    max-width: 400px;
+    margin: auto;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#menu > a > li {
+    display: inline-block;
+    margin: 10px;
+}
+#menu {
+    margin: 10px;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-weight: bolder;
+}
+#linkmenu {
+    text-decoration: none;
+    color: antiquewhite;
+}
+#linkmenu:hover {
+    color: #fcf9f9;
+    background-color: #96B3D9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#h1domain {
+    font: normal 2em "idroid";
+    padding: 10px;
+}
+
+.titulosecundario {
+    font: normal 1.5em "idroid";
+    padding: 10px;
+    background-image: linear-gradient(to right, #0b2624, whitesmoke );
+}
+
+.ademain {
+    text-decoration: none;
+    color: #0b2624;
+    font-weight: bolder;
+}
+.ademain:hover {
+    color: blue;
+}
+.ademain::before {
+    content: " ⚭ ";
+}
+
+p.pgeral {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px;
+}
+
+#divdorobozinho {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+#video {
+    background-color: #0b2624;
+    padding: 10px;
+    margin: -10px;
+}
+
+#extra {
+    margin: 20px;
+    background-color: #acbcc5;
+    border-radius: 10px 10px 0px 0px;
+}
+#bolos {
+    columns: 2;
+    padding-left: 40px;
+}
+#bolos > li {
+    margin-bottom: 10px;
+}
+#bolos > li::before {
+    content: "✓ " ;
+}
+
+h3 {
+    background-color: #0b2624;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: #0b2624;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+

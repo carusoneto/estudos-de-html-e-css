@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "che" ;
+    src: url("fontes/CheGuevaraBarry-Brown.ttf") format("truetype");
+}
+
+body {
+    background-color: #0b2624;
+}
+
+div {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+nav {
+    max-width: 500px;
+    margin: auto;
+ }
+
+li {
+    margin: 20px;
+    display: inline-block;
+    font-family: "che";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 233, 233) ;
+ }
+ a:hover {
+    padding: 10px;
+    color: black;
+    background-color: rgb(140, 218, 140);
+    transition: 2s
+ }
+
