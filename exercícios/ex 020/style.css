@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+a:visited {
+    color: #302ea8;
+}
+a {
+    color: #302ea8;
+    background-color: rgb(168, 209, 19);
+    width: 300px;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration: none;
+}
+a:hover {
+    color: aliceblue;
+    background-color: black;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+a::after {
+    content: ' (LINK)';
+}
+
+
+
+

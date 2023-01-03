@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family:digital ;
+    src: url("fontes/Digitalt.otf") format("opentype");
+}
+
+div {
+    width: 200px;
+    height: 300px;
+    display: block;
+    background-color: rgb(118, 201, 201);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+div:hover {
+    background-color: brown;
+   
+}
+
+div > p {
+    display: none;
+}
+
+div:hover p {
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+}
